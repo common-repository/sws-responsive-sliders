@@ -1,0 +1,46 @@
+.field_left {
+float:left;
+width:65%;
+}
+
+.field_right {
+float:left;
+margin-top: 20px;
+margin-left:25px;
+}
+
+.clear {
+clear:both;
+}
+
+#dynamic_form {
+width:100%;
+}
+
+#dynamic_form input[type=text] {
+width:500px;
+}
+
+#dynamic_form .field_row {
+border:1px solid #999;
+margin-bottom:10px;
+padding:25px;
+}
+
+#dynamic_form label {
+padding:0 6px;
+}
+.field_right .button, #add_field_row .button{
+background: #008ec2;
+border-color: #006799;
+color: #fff;
+}
+.field_right .button:hover, #add_field_row .button:hover{
+background: #000;
+border-color: #000;
+color: #fff;
+}
+
+.field_right.image_wrap img{
+border: 1px solid #ccc;
+}
